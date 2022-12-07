@@ -29,8 +29,8 @@ import java.net.Socket;
 
 public class MainActivity extends AppCompatActivity {
 
-    String domain = "khu.ac.kr";   //>> 서버 주소
-    String path = "kor/upload/catalog/catalog_file_1668646914127.jpg";   //>> 서버 내 이미지파일 경로
+    String domain = "https://e-campus.khu.ac.kr";   //>> 서버 주소
+    String path = "customs/main/header_logo.png";   //>> 서버 내 이미지파일 경로
     Socket sock = null;
     CSoket th;    //>> Thread 클래스
 
